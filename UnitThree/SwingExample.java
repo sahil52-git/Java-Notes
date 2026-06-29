@@ -12,6 +12,11 @@ public class SwingExample {
 
 
         JLabel label = new JLabel("Hello");
+        JTextField textField = new JTextField(20);
+        JButton button = new JButton ("submit");
+
+        JPanel panel = new JPanel ();
+        panel.add
 
         frame.add(label);
         frame.setVisible(true);
